@@ -29,7 +29,8 @@ external calls, and logs each request to a database.
 2. Copy `.env.example` to `.env`
 3. Add your `WEATHER_API_KEY`
 4. Run: `docker-compose -f docker/docker-compose.yml up -d --build`
-5. Go to the `http://localhost:9001/`
-6. Create bucked and add this name to the env file as `S3_BUCKET_NAME` variable
-7. Re-run docker 
-8. Done
+5. Go to Minio by the path: `http://localhost:9001/`
+6. Enter credential. You can find them in env.example
+7. Create bucked and add this name to the env file as `S3_BUCKET_NAME` variable
+8. Re-run docker 
+9. Done. Have a fun!
